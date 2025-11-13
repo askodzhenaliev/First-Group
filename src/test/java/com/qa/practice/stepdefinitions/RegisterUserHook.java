@@ -17,6 +17,6 @@ public class RegisterUserHook {
 
     @After
     public void tearDown(){
-//        driver.quit();
+        driver.quit();
     }
 }
