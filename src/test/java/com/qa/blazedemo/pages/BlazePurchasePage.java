@@ -82,6 +82,7 @@ public class BlazePurchasePage {
 
     public void clickFirstFlightButton() {
         firstFlightButton.click();
+        System.out.println("fixing some bugs");
     }
 
     public void contactInformation(String name, String address, String city, String state, String zipCode) {
