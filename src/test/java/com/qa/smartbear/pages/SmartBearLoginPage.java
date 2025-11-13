@@ -21,7 +21,7 @@ public class SmartBearLoginPage {
     WebElement submitButton;
 
     @FindBy(xpath = "//a[.='Order']")
-    WebElement orderButton;
+    WebElement orderBtn;
 
 
     public void loginFunctionality(String username, String password) throws InterruptedException {
