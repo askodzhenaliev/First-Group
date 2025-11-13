@@ -33,6 +33,6 @@ public class SmartBearLoginPage {
     }
 
     public void clickOrderButton(){
-        orderButton.click();
+        orderBtn.click();
     }
 }
