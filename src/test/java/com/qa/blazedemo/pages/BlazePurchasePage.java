@@ -105,6 +105,7 @@ public class BlazePurchasePage {
     public void rememberMeButtonAndClickPurchase(){
         checkBox.click();
         purchaseFlightButton.click();
+
     }
 
     public void messageValidation(String expectedMessage){
