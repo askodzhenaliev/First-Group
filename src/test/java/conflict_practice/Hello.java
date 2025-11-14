@@ -26,6 +26,6 @@ public class Hello {
     }
 
     public static void merge() {
-
+        System.out.println("HEllo world");
     }
 }
