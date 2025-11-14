@@ -1,18 +1,12 @@
 package conflict_practice;
 
+import java.util.Scanner;
+
 public class Hello {
     public static void main(String[] args) {
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your name: ");
+        String name = scanner.next();
+        System.out.println("Hello, " + name + " how are you doing!");
     }
 }
