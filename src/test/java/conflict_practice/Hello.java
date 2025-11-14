@@ -22,5 +22,9 @@ public class Hello {
         System.out.println("Hello, " + name + " how are you doing!");
     }
 
-
+    public static void merge() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("New changes");
+        }
+    }
 }
