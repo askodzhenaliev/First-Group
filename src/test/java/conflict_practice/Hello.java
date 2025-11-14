@@ -20,6 +20,7 @@ public class Hello {
         System.out.println("Enter your name: ");
         String name = scanner.next();
         System.out.println("Hello, " + name + " how are you doing!");
+        System.out.println("Hello conflict solvers");
     }
 
 
