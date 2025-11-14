@@ -2,17 +2,9 @@ package conflict_practice;
 
 public class Hello {
     public static void main(String[] args) {
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
+        for (int i = 0; i < 10; i++) {
+            System.out.println("This is feature/conflict branch");
+            System.out.println("we will try to merge it !");
+        }
     }
 }
