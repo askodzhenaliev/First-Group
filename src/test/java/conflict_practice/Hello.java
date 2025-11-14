@@ -22,5 +22,12 @@ public class Hello {
         System.out.println("Hello, " + name + " how are you doing!");
     }
 
+    public static void getUserLastname() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your lastname: ");
+        String lastname = scanner.next();
+        System.out.println("your lastname: " + lastname);
+    }
+
 
 }
