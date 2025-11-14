@@ -4,14 +4,13 @@ import java.util.Scanner;
 
 public class Hello {
     public static void main(String[] args) {
-        method();
+
         greetings();
     }
 
-    public static void method() {
-        for (int i = 0; i < 10; i++) {
-            System.out.println("This is feature/conflict branch");
-            System.out.println("we will try to merge it !");
+    public static void createForLoop() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Hello");
         }
     }
 
