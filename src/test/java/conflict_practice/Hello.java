@@ -12,6 +12,9 @@ public class Hello {
         for (int i = 0; i < 10; i++) {
             System.out.println("This is feature/conflict branch");
             System.out.println("we will try to merge it !");
+            System.out.println("we will try to merge it !");
+            System.out.println("we will try to merge it !");
+
         }
     }
 
