@@ -6,6 +6,9 @@ public class Hello {
     public static void main(String[] args) {
         method();
         greetings();
+        for (int i = 0; i < 5; i++) {
+            System.out.println("New changes");
+        }
     }
 
     public static void method() {
@@ -23,8 +26,6 @@ public class Hello {
     }
 
     public static void merge() {
-        for (int i = 0; i < 5; i++) {
-            System.out.println("New changes");
-        }
+
     }
 }
