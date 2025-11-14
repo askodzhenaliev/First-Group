@@ -8,5 +8,11 @@ public class Hello {
         System.out.println("Enter your name: ");
         String name = scanner.next();
         System.out.println("Hello, " + name + " how are you doing!");
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println("This is feature/conflict branch");
+            System.out.println("we will try to merge it !");
+        }
+
     }
 }
