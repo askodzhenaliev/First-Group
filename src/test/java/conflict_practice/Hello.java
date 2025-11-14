@@ -2,17 +2,8 @@ package conflict_practice;
 
 public class Hello {
     public static void main(String[] args) {
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
-        System.out.println("Hello here we will practice conflicts");
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Some changes in my branch");
+        }
     }
 }
